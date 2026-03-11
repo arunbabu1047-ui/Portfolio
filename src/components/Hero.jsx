@@ -10,7 +10,7 @@ const Hero = ({ profile }) => (
       <div className="mt-8 flex flex-wrap items-center gap-4">
         <a
           href="#projects"
-          className="rounded-full bg-cyan-400 px-6 py-3 text-sm font-semibold text-slate-900 transition hover:bg-cyan-300"
+          className="pulse-ring rounded-full bg-cyan-400 px-6 py-3 text-sm font-semibold text-slate-900 transition hover:bg-cyan-300"
         >
           View Projects
         </a>
@@ -29,7 +29,7 @@ const Hero = ({ profile }) => (
       </div>
     </div>
 
-    <div className="reveal glass">
+    <div className="reveal glass shine">
       <div className="flex items-center justify-between">
         <div>
           <p className="text-sm text-slate-400">Current Focus</p>
@@ -65,7 +65,7 @@ const Hero = ({ profile }) => (
           <p className="text-xs uppercase tracking-widest text-slate-400">Highlight</p>
           <p className="mt-2 text-lg font-semibold text-white">Built 4+ projects</p>
         </div>
-        <div className="h-14 w-14 animate-float rounded-full border border-white/20 bg-white/10" />
+        <div className="h-14 w-14 animate-float float-slow rounded-full border border-white/20 bg-white/10" />
       </div>
     </div>
   </section>

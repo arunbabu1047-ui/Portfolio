@@ -1,7 +1,5 @@
 const Footer = ({ name }) => (
-  <footer className="pb-12 text-center text-xs text-slate-500">
-    © 2026 {name}. Designed with React + Tailwind.
-  </footer>
-)
+  <footer className="pb-12 text-center text-xs text-slate-500"></footer>
+);
 
-export default Footer
+export default Footer;

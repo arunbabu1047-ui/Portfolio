@@ -1,16 +1,19 @@
-import SectionTitle from './SectionTitle'
+import SectionTitle from "./SectionTitle";
 
 const Contact = ({ contacts }) => (
   <section id="contact" className="section">
-    <div className="reveal glass">
+    <div className="reveal glass shine">
       <SectionTitle
         eyebrow="Contact"
-        title="Let&apos;s build something together"
+        title="Let's build something together"
         description="Reach out for collaborations, freelance work, or full-time roles."
       />
       <div className="grid gap-6 sm:grid-cols-3">
         {contacts.map((item) => (
-          <div key={item.label} className="rounded-2xl border border-white/10 bg-white/5 p-5">
+          <div
+            key={item.label}
+            className="rounded-2xl border border-white/10 bg-white/5 p-5"
+          >
             <p className="text-xs uppercase tracking-widest text-slate-400">
               {item.label}
             </p>
@@ -30,19 +33,36 @@ const Contact = ({ contacts }) => (
         ))}
       </div>
       <div className="mt-10 flex flex-wrap items-center gap-4">
-        <a
+        {/* <a
           href="/resume-arun-babu.html"
           className="rounded-full bg-white px-6 py-3 text-sm font-semibold text-slate-900 transition hover:bg-slate-100"
           download
         >
-          Download Resume
+          Download Resume (HTML)
+        </a> */}
+        <a
+          href="/resume-arun-babu.doc"
+          className="rounded-full bg-white/10 px-6 py-3 text-sm font-semibold text-white transition hover:bg-white/20"
+          download
+        >
+          Download Resume (Word)
         </a>
-        <button className="rounded-full border border-white/20 px-6 py-3 text-sm font-semibold text-white transition hover:border-white/40">
+        <a
+          href="/resume-arun-babu.pdf"
+          className="rounded-full bg-white/10 px-6 py-3 text-sm font-semibold text-white transition hover:bg-white/20"
+          download
+        >
+          Download Resume (PDF)
+        </a>
+        <a
+          href="mailto:arunbabu1047@gmail.com?subject=Schedule%20a%20Call"
+          className="rounded-full border border-white/20 px-6 py-3 text-sm font-semibold text-white transition hover:border-white/40"
+        >
           Schedule a Call
-        </button>
+        </a>
       </div>
     </div>
   </section>
-)
+);
 
-export default Contact
+export default Contact;

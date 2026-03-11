@@ -65,6 +65,21 @@ export const education = [
   },
 ]
 
+export const tools = ['VS Code', 'Git', 'Postman', 'Figma', 'Chrome DevTools']
+
+export const certifications = [
+  {
+    name: 'Java Full Stack',
+    issuer: 'Greens Technology, Chennai',
+  },
+  {
+    name: 'C, C++',
+    issuer: 'CSC, Mayiladuthurai',
+  },
+]
+
+export const languages = ['Tamil', 'English']
+
 export const contacts = [
   {
     label: 'Email',
