@@ -38,13 +38,13 @@ export const projects = [
   {
     name: "Cabsat",
     description:
-      "Built a responsive event landing page tailored for the Cabsat expo.\nDesigned sections for agenda, speakers, sponsors, and venue details.\nCreated a clean layout to surface key info quickly for visitors.\nImplemented clear CTAs for passes and exhibitor bookings.\nEnsured consistent branding and readability across devices.\nOptimized structure for fast navigation and mobile-first viewing.",
+      "Event showcase website with agenda highlights, speaker grids, sponsor sections, and venue details. Built for fast navigation, clean sectioning, and a polished marketing presentation across desktop and mobile devices. Emphasis on clear content hierarchy, quick CTA access, and a consistent brand look. Designed to help visitors find key information within seconds through structured layouts and focused typography. Optimized to keep content sharp on smaller screens and maintain visual quality.",
     stack: " HTML, CSS, JavaScript",
   },
   {
     name: "SatExpo",
     description:
-      "Designed a SatExpo event site focused on the satellite and space community.\nOrganized sections for highlights, exhibitors, visitors, and venue details.\nCrafted a clean visual flow so key information stands out instantly.\nIntegrated strong CTAs for passes, bookings, and inquiries.\nEnsured consistent branding, contrast, and readability across screens.\nOptimized for fast navigation and smooth mobile-first browsing.",
+      "Promotional expo site featuring sectioned storytelling, animated highlights, visitor information, and clear call‑to‑actions. Optimized for readability, consistent branding, and mobile‑first browsing. Designed to guide users through event value and registration details with minimal friction. Includes strong visual hierarchy and clear section breaks to keep long content readable. Built to be lightweight and fast while still feeling premium.",
     stack: " HTML, CSS, JavaScript",
   },
   {
@@ -56,13 +56,13 @@ export const projects = [
   {
     name: "ORB",
     description:
-      "Built an admin dashboard for ORB with clear KPI cards and summary stats.\nOrganized navigation for users, reports, and activity reviews.\nDesigned a clean layout that keeps metrics easy to scan at a glance.\nImplemented consistent spacing, color cues, and iconography for clarity.\nEnsured responsive behavior for desktop and smaller screens.\nOptimized the dashboard flow for quick decisions and daily use.",
+      "Interactive dashboard suite featuring KPI cards, trend panels, and quick‑filter components. Designed for fast insight scanning, clean data hierarchy, and responsive layouts. Focused on readability and quick decision making with compact data blocks. Prioritizes spacing, contrast, and alignment to keep metrics understandable at a glance. Built to scale from small dashboards to dense analytics pages.",
     stack: "React, Tailwind, API integrations",
   },
   {
     name: "IME",
     description:
-      "Built an IME event landing page with strong hero messaging and CTA focus.\nStructured sections for exhibitors, visitors, media, and contact details.\nDesigned highlight blocks for key stats and event value points.\nIntegrated video showcase and branded visuals for engagement.\nEnsured clean typography, spacing, and contrast for readability.\nOptimized layout for fast navigation and mobile-first browsing.",
+      "Form‑heavy workflow system with dynamic sections, validations, and summary views. Built for daily operational use with accessibility, performance, and consistent UI patterns. Supports complex data entry with step clarity, error prevention, and structured outputs. Designed to reduce rework by highlighting required fields and keeping progress visible. Optimized for speed so teams can complete long forms without friction.",
     stack: "React, Tailwind",
   },
 ];
@@ -71,22 +71,10 @@ export const education = [
   {
     degree: "MCA",
     school: "AVC College of Engineering",
-    period: "2021-2023",
   },
   {
     degree: "BCA",
     school: "AVC College (Autonomous)",
-    period: "2018-2021",
-  },
-  {
-    degree: "12th",
-    school: "Silver Jubilee Matric Hr. Sec. School (Target)",
-    period: "2017",
-  },
-  {
-    degree: "10th",
-    school: "Nisha Matriculation School",
-    period: "2015",
   },
 ];
 
@@ -124,8 +112,8 @@ export const contacts = [
   },
   {
     label: "Phone",
-    value: "+91 8870064429",
-    href: "tel:+918870064429",
+    value: "+91 7639771047",
+    href: "tel:+91 7639771047",
   },
   {
     label: "LinkedIn",
@@ -133,6 +121,3 @@ export const contacts = [
     href: "https://www.linkedin.com/in/arunbabu1047",
   },
 ];
-
-
-
