@@ -29,6 +29,9 @@ function App() {
   const [showIntro, setShowIntro] = useState(true)
 
   useEffect(() => {
+    if (window.location.hash) {
+      history.replaceState(null, '', window.location.pathname)
+    }
     window.scrollTo({ top: 0, left: 0, behavior: 'auto' })
     const timer = setTimeout(() => setShowIntro(false), 1600)
     const elements = document.querySelectorAll('.reveal')
@@ -54,13 +57,19 @@ function App() {
 
   return (
     <div className="relative min-h-screen overflow-hidden">
-      <div className={`intro-screen ${showIntro ? 'is-active' : 'is-done'}`}>
-        <div className="intro-card">
-          <div className="intro-pulse" />
-          <p className="intro-title">Arun Babu</p>
-          <p className="intro-sub">React Developer</p>
+      {/* <div className={`intro-screen ${showIntro ? 'is-active' : 'is-done'}`}>
+        <div className="intro-panther">
+          <div className="panther-glow" />
+          <div className="panther-mask">
+            <div className="mask-eye left" />
+            <div className="mask-eye right" />
+            <div className="mask-line mid" />
+            <div className="mask-line lower" />
+          </div>
+          <p className="panther-title">Arun Babu</p>
+          <p className="panther-sub">React Developer</p>
         </div>
-      </div>
+      </div> */}
       <div className="background-grid" />
       <div className="pointer-events-none absolute left-0 top-0 h-[500px] w-[500px] -translate-x-1/3 -translate-y-1/3 rounded-full bg-cyan-400/20 blur-[120px]" />
       <div className="pointer-events-none absolute bottom-0 right-0 h-[520px] w-[520px] translate-x-1/4 translate-y-1/3 rounded-full bg-amber-300/20 blur-[140px]" />
