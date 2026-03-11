@@ -71,10 +71,22 @@ export const education = [
   {
     degree: "MCA",
     school: "AVC College of Engineering",
+    period: "2021-2023",
   },
   {
     degree: "BCA",
     school: "AVC College (Autonomous)",
+    period: "2018-2021",
+  },
+  {
+    degree: "12th",
+    school: "Silver Jubilee Matric Hr. Sec. School (Target)",
+    period: "2017",
+  },
+  {
+    degree: "10th",
+    school: "Nisha Matriculation School",
+    period: "2015",
   },
 ];
 

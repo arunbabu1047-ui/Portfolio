@@ -204,12 +204,12 @@
         Structured sections for exhibitors, visitors, media, and contact info.<br>
         Highlighted key stats with branded visuals and video integration.<br>
         Tuned typography and layout for readability and fast navigation.</p>
-      </section>
-
-      <section class="section">
+      </section>      <section class="section">
         <h2>Education</h2>
-        <p><strong>MCA</strong> — AVC College of Engineering</p>
-        <p><strong>BCA</strong> — AVC College (Autonomous)</p>
+        <p><strong>MCA</strong> (2021-2023) &mdash; AVC College of Engineering</p>
+        <p><strong>BCA</strong> (2018-2021) &mdash; AVC College (Autonomous)</p>
+        <p><strong>12th</strong> (2017) &mdash; Silver Jubilee Matric Hr. Sec. School (Target)</p>
+        <p><strong>10th</strong> (2015) &mdash; Nisha Matriculation School</p>
       </section>
 
       <section class="section">
@@ -228,6 +228,7 @@
     </div>
   </body>
 </html>
+
 
 
 
