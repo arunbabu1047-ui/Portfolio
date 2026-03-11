@@ -8,6 +8,7 @@ import {
   profile,
   projects,
   skills,
+  techStack,
   tools,
 } from './data'
 import About from './components/About'
@@ -21,6 +22,7 @@ import Hero from './components/Hero'
 import Languages from './components/Languages'
 import Projects from './components/Projects'
 import Skills from './components/Skills'
+import TechStack from './components/TechStack'
 import Tools from './components/Tools'
 
 function App() {
@@ -73,6 +75,7 @@ function App() {
       <Projects projects={projects} />
       <Education education={education} />
       <Tools tools={tools} />
+      <TechStack techStack={techStack} />
       <Certifications certifications={certifications} />
       <Languages languages={languages} />
       <Contact contacts={contacts} />

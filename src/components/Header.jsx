@@ -22,15 +22,18 @@ const Header = ({ name }) => (
       <a href="#education" className="transition hover:text-white">
         Education
       </a>
-      {/* <a href="#tools" className="transition hover:text-white">
+      <a href="#tools" className="transition hover:text-white">
         Tools
       </a>
-      <a href="#certifications" className="transition hover:text-white">
+      {/* <a href="#tech-stack" className="transition hover:text-white">
+        Tech Stack
+      </a> */}
+      {/* <a href="#certifications" className="transition hover:text-white">
         Certifications
       </a> */}
-      {/* <a href="#languages" className="transition hover:text-white">
+      <a href="#languages" className="transition hover:text-white">
         Languages
-      </a> */}
+      </a>
       <a href="#contact" className="transition hover:text-white">
         Contact
       </a>
