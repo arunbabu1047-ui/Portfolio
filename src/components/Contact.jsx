@@ -40,15 +40,15 @@ const Contact = ({ contacts }) => (
         >
           Download Resume (HTML)
         </a> */}
-        <a
+        {/* <a
           href="/resume-arun-babu.doc"
           className="rounded-full bg-white/10 px-6 py-3 text-sm font-semibold text-white transition hover:bg-white/20"
           download
         >
           Download Resume (Word)
-        </a>
+        </a> */}
         <a
-          href="/resume-arun-babu.pdf"
+          href="/Arun-Resume.pdf"
           className="rounded-full bg-white/10 px-6 py-3 text-sm font-semibold text-white transition hover:bg-white/20"
           download
         >
